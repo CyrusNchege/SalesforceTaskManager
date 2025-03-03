@@ -14,7 +14,7 @@ This project implements a Salesforce solution to manage tasks with a custom obje
 2. Open in VS Code and authorize a scratch org: `sfdx force:auth:web:login`.
 3. Deploy to the org: `sfdx force:source:push`.
 4. Assign permissions to `Task__c` via a Permission Set if needed.
-
+~~
 ## Accessing the LWC
 1. In Setup > Lightning App Builder, create a new Lightning Page (e.g., "Task App").
 2. Drag the `taskList` component onto the page and save.
